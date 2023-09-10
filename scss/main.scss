@@ -1,2 +1,15 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import "./font";
+@import './components/header/navbar';
+@import './components/header/bigimage';
 
+*{
+  font-family: 'Jost', sans-serif !important;
+}
+
+//Header Block
+
+.header {
+  height: auto;
+  background: #141024;
+}
