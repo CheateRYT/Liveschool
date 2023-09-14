@@ -13383,6 +13383,7 @@ textarea.form-control-lg {
 
 .block-left {
   margin-top: 182px;
+  padding-bottom: 15px;
 }
 
 .block-left__title {
@@ -13414,10 +13415,91 @@ textarea.form-control-lg {
 }
 
 .block-right__img {
-  max-width: 782px;
-  max-height: 918px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+.advantage {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+
+.advantage__number {
+  color: #D52027;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.advantage__text {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.advantage__title {
+  max-width: 891px;
+  margin: 0px;
+  color: #141024;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  line-height: 160%;
+}
+
+.advantage__title span {
+  font-weight: bold;
+}
+
+/* Для устройств с шириной экрана до 576 пикселей */
+@media (max-width: 576px) {
+  .advantage {
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+  .advantage__title {
+    font-size: 15px;
+  }
+  .advantage__number {
+    font-size: 18px;
+  }
+}
+/* Для устройств с шириной экрана от 577px до 768 пикселей */
+@media (min-width: 577px) and (max-width: 768px) {
+  .advantage {
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  .advantage__title {
+    font-size: 20px;
+  }
+  .advantage__number {
+    font-size: 20px;
+  }
+}
+/* Для устройств с шириной экрана от 769px до 992 пикселей */
+@media (min-width: 769px) and (max-width: 992px) {
+  .advantage {
+    margin-bottom: 30px;
+    padding-top: 40px;
+  }
+  .advantage__title {
+    font-size: 25px;
+  }
+  .advantage__number {
+    font-size: 22px;
+  }
+}
 * {
   font-family: "Jost", sans-serif !important;
 }
@@ -13425,4 +13507,29 @@ textarea.form-control-lg {
 .header {
   height: auto;
   background: #141024;
+}
+
+.advantages {
+  height: auto;
+  background: #FFF;
+  padding: 120px 0;
+}
+
+/* Для устройств с шириной экрана до 576 пикселей */
+@media (max-width: 576px) {
+  .advantages {
+    padding: 80px 0;
+  }
+}
+/* Для устройств с шириной экрана от 577px до 768 пикселей */
+@media (min-width: 577px) and (max-width: 768px) {
+  .advantages {
+    padding: 90px 0;
+  }
+}
+/* Для устройств с шириной экрана от 769px до 992 пикселей */
+@media (min-width: 769px) and (max-width: 992px) {
+  .advantages {
+    padding: 105px 0;
+  }
 }
