@@ -13473,6 +13473,9 @@ textarea.form-control-lg {
   .advantage__number {
     font-size: 18px;
   }
+  .advantage__text {
+    font-size: 14px;
+  }
 }
 /* Для устройств с шириной экрана от 577px до 768 пикселей */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -13486,6 +13489,9 @@ textarea.form-control-lg {
   .advantage__number {
     font-size: 20px;
   }
+  .advantage__text {
+    font-size: 15px;
+  }
 }
 /* Для устройств с шириной экрана от 769px до 992 пикселей */
 @media (min-width: 769px) and (max-width: 992px) {
@@ -13498,6 +13504,9 @@ textarea.form-control-lg {
   }
   .advantage__number {
     font-size: 22px;
+  }
+  .advantage__text {
+    font-size: 16px;
   }
 }
 * {
