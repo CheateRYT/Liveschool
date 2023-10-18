@@ -37,7 +37,7 @@ line-height: 160%;
 /* Для устройств с шириной экрана до 576 пикселей */
 @media (max-width: 576px) {
   .advantages {
-    padding: 80px 0;
+    padding: 80px 0 !important;
   }
   .advantage {
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ line-height: 160%;
 /* Для устройств с шириной экрана от 577px до 768 пикселей */
 @media (min-width: 577px) and (max-width: 768px) {
   .advantages {
-    padding: 90px 0;
+    padding: 90px 0 !important;
   }
   .advantage {
     margin-bottom: 20px;
@@ -79,7 +79,7 @@ line-height: 160%;
 /* Для устройств с шириной экрана от 769px до 992 пикселей */
 @media (min-width: 769px) and (max-width: 992px) {
   .advantages {
-    padding: 105px 0;
+    padding: 105px 0 !important;
   }
   .advantage {
     margin-bottom: 30px;

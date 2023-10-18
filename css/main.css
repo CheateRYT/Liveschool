@@ -13369,6 +13369,7 @@ textarea.form-control-lg {
 
 .header__logo {
   font-size: 30px;
+  padding-right: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
@@ -13378,9 +13379,18 @@ textarea.form-control-lg {
 .header__phone {
   font-size: 30px;
   font-weight: 600;
+  padding-left: 15px;
   line-height: 160%;
 }
 
+@media (max-width: 990px) {
+  .my-custom-navbar {
+    margin-bottom: 45px;
+  }
+  .header__phone {
+    font-size: 20px;
+  }
+}
 .block-left {
   margin-top: 182px;
   padding-bottom: 15px;
@@ -13469,7 +13479,7 @@ textarea.form-control-lg {
 /* Для устройств с шириной экрана до 576 пикселей */
 @media (max-width: 576px) {
   .advantages {
-    padding: 80px 0;
+    padding: 80px 0 !important;
   }
   .advantage {
     margin-bottom: 10px;
@@ -13488,7 +13498,7 @@ textarea.form-control-lg {
 /* Для устройств с шириной экрана от 577px до 768 пикселей */
 @media (min-width: 577px) and (max-width: 768px) {
   .advantages {
-    padding: 90px 0;
+    padding: 90px 0 !important;
   }
   .advantage {
     margin-bottom: 20px;
@@ -13507,7 +13517,7 @@ textarea.form-control-lg {
 /* Для устройств с шириной экрана от 769px до 992 пикселей */
 @media (min-width: 769px) and (max-width: 992px) {
   .advantages {
-    padding: 105px 0;
+    padding: 105px 0 !important;
   }
   .advantage {
     margin-bottom: 30px;
@@ -13599,7 +13609,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 576px) {
   .course-block .course-block {
-    padding-top: 50px;
+    padding: 50px 0 !important;
   }
   .course-block .course-block__title {
     font-size: 32px;
@@ -13617,7 +13627,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 577px) and (max-width: 992px) {
   .course-block .course-block {
-    padding-top: 80px;
+    padding: 80px 0 !important;
   }
   .course-block .course-block__title {
     font-size: 40px;
@@ -13625,7 +13635,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 993px) {
   .course-block .course-block {
-    padding-top: 100px;
+    padding: 100px 0 !important;
   }
 }
 

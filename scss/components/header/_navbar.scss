@@ -12,6 +12,7 @@ line-height: 160%;
 }
 .header__logo {
   font-size: 30px;
+  padding-right: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
@@ -21,5 +22,14 @@ line-height: 160%;
 .header__phone{
   font-size: 30px;
   font-weight: 600;
+  padding-left: 15px;
   line-height: 160%; 
+}
+@media (max-width: 990px) {
+  .my-custom-navbar {
+    margin-bottom: 45px;
+  }
+  .header__phone{
+    font-size: 20px;
+  }
 }
