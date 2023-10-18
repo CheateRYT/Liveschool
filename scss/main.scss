@@ -1,13 +1,16 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import "./font";
+
 @import './components/header/navbar';
 @import './components/header/bigimage';
+
 @import './components/advantages/advantages';
+@import './components/course-results/course-results';
+
 *{
   font-family: 'Jost', sans-serif !important;
 }
 
-//Header Block
 
 .header {
   height: auto;
@@ -18,23 +21,10 @@
   background: #FFF;;
   padding: 120px 0;
 }
-/* Для устройств с шириной экрана до 576 пикселей */
-@media (max-width: 576px) {
-  .advantages {
-    padding: 80px 0;
-  }
+.course-block {
+  padding: 100px 0;
+  background: #F9F9F9;
 }
-
-/* Для устройств с шириной экрана от 577px до 768 пикселей */
-@media (min-width: 577px) and (max-width: 768px) {
-  .advantages {
-    padding: 90px 0;
-  }
-}
-
-/* Для устройств с шириной экрана от 769px до 992 пикселей */
-@media (min-width: 769px) and (max-width: 992px) {
-  .advantages {
-    padding: 105px 0;
-  }
+.course-results {
+  background: #F9F9F9;
 }

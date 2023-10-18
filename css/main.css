@@ -13463,6 +13463,9 @@ textarea.form-control-lg {
 
 /* Для устройств с шириной экрана до 576 пикселей */
 @media (max-width: 576px) {
+  .advantages {
+    padding: 80px 0;
+  }
   .advantage {
     margin-bottom: 10px;
     padding-top: 20px;
@@ -13479,6 +13482,9 @@ textarea.form-control-lg {
 }
 /* Для устройств с шириной экрана от 577px до 768 пикселей */
 @media (min-width: 577px) and (max-width: 768px) {
+  .advantages {
+    padding: 90px 0;
+  }
   .advantage {
     margin-bottom: 20px;
     padding-top: 30px;
@@ -13495,6 +13501,9 @@ textarea.form-control-lg {
 }
 /* Для устройств с шириной экрана от 769px до 992 пикселей */
 @media (min-width: 769px) and (max-width: 992px) {
+  .advantages {
+    padding: 105px 0;
+  }
   .advantage {
     margin-bottom: 30px;
     padding-top: 40px;
@@ -13509,6 +13518,112 @@ textarea.form-control-lg {
     font-size: 16px;
   }
 }
+.course-block {
+  padding-top: 100px;
+  background: #F9F9F9;
+}
+.course-block .course-block__title {
+  color: #141024;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.course-block .course-block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+.course-block .course-block__content .course-block__item {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: left;
+}
+.course-block .course-block__content .course-block__item .course-block__item-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #141024;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.course-block .course-block__content .course-block__item .course-block__item-description {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 160%;
+}
+.course-block .course-block__item-icon {
+  display: inline-block;
+  width: 24px;
+  margin-left: 10px;
+  height: 24px;
+  background-image: url(../../../img/practice-inf.png);
+}
+.course-block .course-block__additional-text {
+  color: #141024;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 15px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1);
+          box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1);
+}
+@media (max-width: 576px) {
+  .course-block .course-block {
+    padding-top: 50px;
+  }
+  .course-block .course-block__title {
+    font-size: 32px;
+  }
+  .course-block .course-block__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .course-block .course-block__content .course-block__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .course-block .course-block {
+    padding-top: 80px;
+  }
+  .course-block .course-block__title {
+    font-size: 40px;
+  }
+}
+@media (min-width: 993px) {
+  .course-block .course-block {
+    padding-top: 100px;
+  }
+}
+
 * {
   font-family: "Jost", sans-serif !important;
 }
@@ -13524,21 +13639,11 @@ textarea.form-control-lg {
   padding: 120px 0;
 }
 
-/* Для устройств с шириной экрана до 576 пикселей */
-@media (max-width: 576px) {
-  .advantages {
-    padding: 80px 0;
-  }
+.course-block {
+  padding: 100px 0;
+  background: #F9F9F9;
 }
-/* Для устройств с шириной экрана от 577px до 768 пикселей */
-@media (min-width: 577px) and (max-width: 768px) {
-  .advantages {
-    padding: 90px 0;
-  }
-}
-/* Для устройств с шириной экрана от 769px до 992 пикселей */
-@media (min-width: 769px) and (max-width: 992px) {
-  .advantages {
-    padding: 105px 0;
-  }
+
+.course-results {
+  background: #F9F9F9;
 }

@@ -1,0 +1,112 @@
+.course-block {
+  padding-top: 100px;
+  background: #F9F9F9;
+
+  .course-block__title {
+    color: #141024;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+  }
+
+  .course-block__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    .course-block__item {
+      flex-basis: 30%;
+      text-align: left;
+
+      .course-block__item-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #141024;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%;
+      }
+
+      .course-block__item-description {
+        font-size: 18px;
+        color: rgba(20, 16, 36, 0.70);
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        align-items: center;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .course-block__item-icon {
+    display: inline-block;
+    width: 24px;
+
+    margin-left: 10px;
+    height: 24px;
+    background-image: url(../../../img/practice-inf.png);
+  }
+  .course-block__additional-text{
+      color: #141024;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      border-radius: 5px;
+      display: inline-flex;
+      padding: 15px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: #FFF;
+      box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.10);
+  }
+
+  
+  // Медиа-запросы
+
+  // Мобильные устройства
+  @media (max-width: 576px) {
+    .course-block {
+      padding-top: 50px;
+    }
+
+    .course-block__title {
+      font-size: 32px;
+    }
+
+    .course-block__content {
+      flex-wrap: wrap;
+      margin-top: 40px;
+
+      .course-block__item {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+  }
+  // Планшеты
+  @media (min-width: 577px) and (max-width: 992px) {
+
+    .course-block {
+      padding-top: 80px;
+    }
+
+    .course-block__title {
+      font-size: 40px;
+    }
+
+  }
+
+  // Десктопы
+  @media (min-width: 993px) {
+    .course-block {
+      padding-top: 100px;
+    }
+
+  }
+}
