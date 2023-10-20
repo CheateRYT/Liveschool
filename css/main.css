@@ -13388,7 +13388,7 @@ textarea.form-control-lg {
     margin-bottom: 45px;
   }
   .header__phone {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .block-left {
@@ -13645,6 +13645,7 @@ textarea.form-control-lg {
 .team .team__title {
   font-size: 50px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 .team .team__slider {
   display: -webkit-box;
@@ -13663,7 +13664,7 @@ textarea.form-control-lg {
   margin-right: 0; /* Для удаления отступа после последней карточки */
 }
 .team .team__slider .team__card .team__photo {
-  width: 360px;
+  max-width: 360px;
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -13718,8 +13719,14 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+@media (max-width: 500px) {
+  .team__card:not(:first-child) {
+    display: none;
+  }
+}
 * {
   font-family: "Jost", sans-serif !important;
+  overflow-x: hidden;
 }
 
 .header {
