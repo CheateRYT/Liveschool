@@ -1,0 +1,66 @@
+.application{
+  padding-top: 106px;
+  overflow: hidden;
+  padding-bottom: 86px;
+  border-radius: 20px;
+  background: #D52027;
+}
+.application__row{
+  display: flex;
+  justify-content: space-between;
+  .application__inf-title{
+    overflow: hidden;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 46.8px */
+  }
+  .application__inf-promotion-time{
+    overflow: hidden;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+  }
+}
+.custom-form {
+  overflow: hidden;
+  background: #F6F6F6;
+  width: 500px;
+  height: 64px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-control{
+  max-width: 500px;
+height: 64px;
+border-radius: 5px;
+background: #F6F6F6;
+
+}
+
+.application__form-button {
+  overflow: hidden;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  align-items: center;
+  overflow: visible;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  background: #141024;
+  padding: 19px 182px;
+}
+
+@media (max-width: 576px) {
+  .application__form-button {
+    padding: 19px;
+  }
+}
